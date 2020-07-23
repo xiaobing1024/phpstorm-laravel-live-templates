@@ -1,0 +1,243 @@
+<templateSet group="Laravel-Blade">
+  <template name="@elseif" value="@elseif ($START$)&#10;    $END$" description="Blade @elseif" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@for" value="@for ($i = 0; $i &lt; $LIMIT$; $i++)&#10;    $END$&#10;@endfor" description="Blade @for" toReformat="false" toShortenFQNames="true">
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@foreach" value="@foreach ($ITERABLE$ as $VAR_VALUE$)&#10;    $END$&#10;@endforeach" description="Blade @foreach" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@if" value="@if ($START$)&#10;    $END$&#10;@endif" description="Blade @if" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@ifelse" value="@if ($START$)&#10;    $END$&#10;@else&#10;    &#10;@endif" description="Blade @ifelse" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@include" value="@include('$VIEW$')" description="Blade @include" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="" defaultValue="&quot;partials.filename&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@layout" value="@extends('$LAYOUT$')&#10;&#10;@section('$TITLE$')&#10;&#10;@section('$CONTENT$')&#10;    $END$&#9;&#10;@endsection" description="Blade template skeleton" toReformat="false" toShortenFQNames="true">
+    <variable name="LAYOUT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@section" value="@section('$SECTION$')&#10;    $END$&#10;@endsection" description="Blade @section" toReformat="false" toShortenFQNames="true">
+    <variable name="SECTION" expression="" defaultValue="&quot;content&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@while" value="@while ($START$)&#10;    $END$&#10;@endwhile" description="Blade @while" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@yield" value="@yield('$CONTENT$')" description="Blade @yield" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="&quot;content&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@extends" value="@extends('$NAME$')$END$" description="Blade @extends" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;default&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@parent" value="@parent" description="Blade @parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@unless" value="@unless ($START$)&#10;    $END$&#10;@endunless" description="Blade @unless" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@forelse" value="@forelse ($ITERABLE$ as $VAR_VALUE$)&#10;    $NEXT$&#10;@empty&#10;    $END$&#10;@endforelse" description="Blade @forelse" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@show" value="@show" description="Blade @show" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@component" value="@component('$NAME$')&#10;    $END$&#10;@endcomponent" description="Blade @component" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@slot" value="@slot('$NAME$')&#10;    $END$&#10;@endslot" description="Blade @slot" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@json" value="@json($NAME$)" description="Blade @json" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@verbatim" value="@verbatim&#10;    $END$&#10;@endverbatim" description="Blade @verbatim" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@isset" value="@isset($NAME$)&#10;    $END$&#10;@endisset" description="Blade @isset" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@empty" value="@empty($NAME$)&#10;    $END$    &#10;@endempty" description="Blade @empty" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@auth" value="@auth&#10;    $END$&#10;@endauth" description="Blade @auth" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@guest" value="@guest()&#10;    $END$&#10;@endguest" description="Blade @guest" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@switch($i)" value="@switch($NAME$)&#10;    @case($CASE$)&#10;        @break&#10;&#10;    @case($CASE$)&#10;        @break&#10;&#10;    @default&#10;        $END$&#10;@endswitch" description="Blade @switch" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CASE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@continue" value="@continue($END$)" description="Blade @continue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@break" value="@break($END$)" description="Blade @break" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@includeIf" value="@includeIf('$VIEW$')" description="Blade @includeIf" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="" defaultValue="&quot;partials.filename&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@includeWhen" value="@includeWhen('$VIEW$')" description="Blade @includeWhen" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="" defaultValue="&quot;partials.filename&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@each" value="@each('$VIEW$', $LISTS$, '$LIST$', '$VIEW$')" description="Blade @each" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LISTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@push" value="@push('$NAME$')&#10;    $END$&#10;@endpush" description="Blade @push" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@stack" value="@stack('$END$')" description="Blade @stack" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="@inject" value="@inject('$NAME$', $CLASS$)" description="Blade @inject" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

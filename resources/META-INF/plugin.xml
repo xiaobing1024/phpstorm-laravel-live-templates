@@ -1,0 +1,33 @@
+<idea-plugin>
+  <id>com.xiaobing1024.laravel</id>
+  <name>Laravel Live Templates</name>
+  <version>1.0</version>
+  <vendor email="zhuxiaobing1024@gmail.com" url="https://github.com/xiaobing1024/phpstorm-laravel-live-templates">zhuxiaobing1024@gmail.com</vendor>
+
+  <description><![CDATA[
+      提供快捷的 Laravel 代码提示，如果需要增加或者删除请联系 https://github.com/xiaobing1024/phpstorm-laravel-live-templates。
+    ]]></description>
+
+  <change-notes><![CDATA[
+      第一次提交
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <defaultLiveTemplates file="/liveTemplates/Laravel-Blade.xml"/>
+    <defaultLiveTemplates file="/liveTemplates/Laravel-Collection.xml"/>
+    <defaultLiveTemplates file="/liveTemplates/Laravel-Php.xml"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>

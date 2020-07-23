@@ -1,0 +1,372 @@
+<templateSet group="Laravel-Collection">
+  <template name="transform" value="transform(function ($v) {&#10;    return $END$;&#10;});" description="laravel transform" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="all" value="all()$END$" description="laravle all" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="collapse" value="collapse()$END$" description="laravle collapse" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="count" value="count()$END$" description="laravle count" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="filter" value="filter(function ($v) {&#10;    return $NEXT$;&#10;})" description="laravel filter" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="first" value="first($NEXT$)$END$" description="laravle first" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="forget" value="forget($NEXT$)$END$" description="laravle forget" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="get" value="get($NEXT$)$END$" description="laravle get" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="groupBy" value="groupBy($NEXT$)$END$" description="laravle groupBy" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="has" value="has($NEXT$)$END$" description="laravle has" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="implode" value="implode($NEXT$)$END$" description="laravle implode" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="toArray" value="toArray()$END$" description="laravle toArray" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="take" value="take($NEXT$)$END$" description="laravle take" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="whereNotIn" value="whereNotIn($NEXT$, $ARR$)$END$" description="laravle whereNotIn" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereIn" value="whereIn($NEXT$, $ARR$)$END$" description="laravle whereIn" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="where" value="where($NEXT$)$END$" description="laravle where" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereq" value="where(function ($q) {&#10;    $q-&gt;where($NEXT$);&#10;})" description="laravle whereq" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="toJson" value="toJson()$END$" description="laravle toJson" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orWhere" value="orWhere($NEXT$)$END$" description="laravle orWhere" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orWhereHas" value="orWhereHas('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle orWhereHas" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereHas" value="whereHas('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle whereHas" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="when" value="when($request-&gt;$START$, function ($q, $v) {&#10;    $q-&gt;where('$NEXT$', $END$);&#10;})" description="laravle when" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fill" value="fill($NEXT$)$END$" description="laravle fill" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="isEmpty" value="isEmpty()$END$" description="laravle isEmpty" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="isNotEmpty" value="isNotEmpty()$END$" description="laravle isNotEmpty" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="paginate" value="paginate($NEXT$)$END$" description="laravle paginate" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="simplePaginate" value="simplePaginate($NEXT$)$END$" description="laravle simplePaginate" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orderBy" value="orderBy($NEXT$, $END$)" description="laravle orderBy" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="getOriginal" value="getOriginal($NEXT$)$END$" description="laravle getOriginal" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="getRelationValue" value="getRelationValue($NEXT$)$END$" description="laravle getRelationValue" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="getAttributeFromArray" value="getAttributeFromArray($NEXT$)$END$" description="laravle getAttributeFromArray" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="contains" value="contains($END$)" description="laravle contains" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="tap" value="tap(function ($c) {&#10;    $NEXT$&#10;})" description="laravle tap" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="whereDoesntHave" value="whereDoesntHave('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle whereDoesntHave" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="doesntHave" value="doesntHave($NEXT$)$END$" description="laravle doesntHave" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orWhereDoesntHave" value="orWhereDoesntHave('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle orWhereDoesntHave" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orHas" value="orHas($NEXT$)$END$" description="laravle orHas" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orDoesntHave" value="orDoesntHave($NEXT$)$END$" description="laravle orDoesntHave" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="hasMorph" value="hasMorph($NEXT$)$END$" description="laravle hasMorph" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="orHasMorph" value="orHasMorph($NEXT$)$END$" description="laravle orHasMorph" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="doesntHaveMorph" value="doesntHaveMorph($NEXT$)$END$" description="laravle doesntHaveMorph" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orDoesntHaveMorph" value="orDoesntHaveMorph($NEXT$)$END$" description="laravle orDoesntHaveMorph" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereHasMorph" value="whereHasMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle whereHasMorph" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orWhereHasMorph" value="orWhereHasMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle orWhereHasMorph" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereDoesntHaveMorph" value="whereDoesntHaveMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle whereDoesntHaveMorph" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orWhereDoesntHaveMorph" value="orWhereDoesntHaveMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle orWhereDoesntHaveMorph" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
