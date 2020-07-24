@@ -2,14 +2,17 @@
   <id>com.xiaobing1024.laravel</id>
   <name>Laravel Live Templates</name>
   <version>1.0</version>
-  <vendor email="zhuxiaobing1024@gmail.com" url="https://github.com/xiaobing1024/phpstorm-laravel-live-templates">zhuxiaobing1024@gmail.com</vendor>
+  <vendor email="zhuxiaobing1024@gmail.com">xiaobing1024</vendor>
 
   <description><![CDATA[
-      提供快捷的 Laravel 代码提示，如果需要增加或者删除请联系 https://github.com/xiaobing1024/phpstorm-laravel-live-templates。
+      Live Templates For Laravel
+      Show details in Preferences -> Editor -> Live Templates
+      find code in https://github.com/xiaobing1024/phpstorm-laravel-live-templates
+      you can concat me for edit live templates.
     ]]></description>
 
   <change-notes><![CDATA[
-      第一次提交
+      first submit
     ]]>
   </change-notes>
 
