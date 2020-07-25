@@ -2,7 +2,7 @@
 
 ## PhpStorm Laravel 代码提示（代码模板）
 
-`PHPstorm` 插件市场已上线，搜索 `Laravel` 看到 `Laravel Live Templates` 就是了.
+`PHPstorm` 插件市场已上线，搜索 `Laravel` 看到 `Laravel Live Templates` 就是了。如果无法安装插件，可以使用下面方法自行导入
 
 自助使用方法：
 
