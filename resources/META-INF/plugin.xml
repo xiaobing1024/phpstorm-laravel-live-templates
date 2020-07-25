@@ -5,9 +5,35 @@
   <vendor email="zhuxiaobing1024@gmail.com">xiaobing1024</vendor>
 
   <description><![CDATA[
-      Live Templates For Laravel
-      Show details in Preferences -> Editor -> Live Templates
-      find code in https://github.com/xiaobing1024/phpstorm-laravel-live-templates
+      <h1>Live Templates For Laravel</h1>
+      Show details in Preferences -> Editor -> Live Templates-> Laravel-Blade Laravel-Collection Laravel-Php Group.
+
+      <img src="https://camo.githubusercontent.com/dd04b39b5d1cd28dff459880c9fa2003e6a21f02/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f393338353333342d636463623530333331643661373932342e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f353030" alt="geta"></a>
+      <img src="https://camo.githubusercontent.com/b7337bc4a51074628a2af7d8d1fa63ab2e16fe2d/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f393338353333342d306635393265613838323035626165362e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f353030" alt="hasOne"></a>
+      <img src="https://camo.githubusercontent.com/ba7fb413a6c279cb65620c7502f791f1b5ba40ab/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f393338353333342d616336356335616465336432303366352e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f353530" alt="if"></a>
+
+      <h2>Example:</h2>
+      func => function() {
+      }
+
+      geta => getAttribute() {
+      }
+
+      dbbeginTransaction => try {
+        DB::beginTransaction();
+
+        DB::commit();
+        return ;
+      } catch (\Exception $e) {
+        DB::rollBack();
+        return ;
+      }
+
+      @if => @if
+      @endif
+
+      <h2>Concat:</h2>
+      find source code in <a href="https://github.com/xiaobing1024/phpstorm-laravel-live-templates">Github</a>
       you can concat me for edit live templates.
     ]]></description>
 
