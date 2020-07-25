@@ -2,6 +2,8 @@
 
 ## PhpStorm Laravel 代码提示（代码模板）
 
+`PHPstorm` 插件市场已上线，搜索 `Laravel` 看到 `Laravel Live Templates` 就是了.
+
 自助使用方法：
 
 1) 下载三个 `xml` 文件放到 `templates` 文件夹下，`templates` 文件夹没有可以自己新建
