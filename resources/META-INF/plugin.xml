@@ -1,44 +1,85 @@
 <idea-plugin>
   <id>com.xiaobing1024.laravel</id>
   <name>Laravel Live Templates</name>
-  <version>1.0</version>
+  <version>1.1.0</version>
   <vendor email="zhuxiaobing1024@gmail.com">xiaobing1024</vendor>
 
   <description><![CDATA[
       <h1>Live Templates For Laravel</h1>
-      Show details in Preferences -> Editor -> Live Templates-> Laravel-Blade Laravel-Collection Laravel-Php Group.
+      <p>Show details in Preferences -> Editor -> Live Templates</p>
+      <p>-> Laravel-Blade Laravel-Collection Laravel-Php Group.</p>
 
-      <img src="https://camo.githubusercontent.com/dd04b39b5d1cd28dff459880c9fa2003e6a21f02/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f393338353333342d636463623530333331643661373932342e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f353030" alt="geta"></a>
-      <img src="https://camo.githubusercontent.com/b7337bc4a51074628a2af7d8d1fa63ab2e16fe2d/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f393338353333342d306635393265613838323035626165362e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f353030" alt="hasOne"></a>
-      <img src="https://camo.githubusercontent.com/ba7fb413a6c279cb65620c7502f791f1b5ba40ab/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f393338353333342d616336356335616465336432303366352e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f353530" alt="if"></a>
-
+      <p>
+        <img width="250" height="210" src="https://camo.githubusercontent.com/dd04b39b5d1cd28dff459880c9fa2003e6a21f02/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f393338353333342d636463623530333331643661373932342e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f353030" alt="geta"></a>
+      </p>
+      <p>
+      <img width="275" height="105" src="https://camo.githubusercontent.com/b7337bc4a51074628a2af7d8d1fa63ab2e16fe2d/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f393338353333342d306635393265613838323035626165362e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f353030" alt="hasOne"></a>
+      </p>
+      <p>
+      <img width="210" height="105"  src="https://camo.githubusercontent.com/ba7fb413a6c279cb65620c7502f791f1b5ba40ab/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f393338353333342d616336356335616465336432303366352e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f353530" alt="if"></a>
+      </p>
       <h2>Example:</h2>
+      <p>
       func => function() {
+      </p>
+      <p>
       }
+      </p>
 
+      <p>
       geta => getAttribute() {
+      </p>
+      <p>
       }
+      </p>
 
+      <p>
       dbbeginTransaction => try {
+      </p>
+      <p>
         DB::beginTransaction();
+      </p>
 
+      <p>
         DB::commit();
+      </p>
+      <p>
         return ;
+      </p>
+      <p>
       } catch (\Exception $e) {
+      </p>
+      <p>
         DB::rollBack();
+      </p>
+      <p>
         return ;
+      </p>
+      <p>
       }
-
+      </p>
+      <p>
       @if => @if
+      </p>
+      <p>
       @endif
+      </p>
 
       <h2>Concat:</h2>
+      <p>
       find source code in <a href="https://github.com/xiaobing1024/phpstorm-laravel-live-templates">Github</a>
+      </p>
+      <p>
       you can concat me for edit live templates.
+      </p>
     ]]></description>
 
   <change-notes><![CDATA[
-      first submit
+      <h3>v1.1.0</h3>
+      <p>add more code, adapt laravel8</p>
+
+      <h3>v1.0.0</h3>
+      <p>first submit</p>
     ]]>
   </change-notes>
 
