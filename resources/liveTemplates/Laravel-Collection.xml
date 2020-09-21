@@ -89,6 +89,17 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
+  <template name="groupByRaw" value="groupByRaw($NEXT$)$END$" description="laravle groupByRaw" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
   <template name="has" value="has($NEXT$)$END$" description="laravle has" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -364,6 +375,233 @@
     </context>
   </template>
   <template name="orWhereDoesntHaveMorph" value="orWhereDoesntHaveMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle orWhereDoesntHaveMorph" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereExists" value="whereExists('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle whereExists" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="chunk" value="chunk($NEXT$, function ($collect) {&#10;    foreach ($collect as $item) {&#10;        $END$})" description="laravle chunk" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="chunkById" value="chunkById($NEXT$, function ($collect) {&#10;    foreach ($collect as $item) {&#10;        $END$})" description="laravle chunkById" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereColumn" value="whereColumn($NEXT$, $END$)" description="laravle whereColumn" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orWhereColumn" value="orWhereColumn($NEXT$, $END$)" description="laravle whereColumn" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="exists" value="exists()$END$" description="laravle exists" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="doesntExist" value="doesntExist()$END$" description="laravle doesntExist" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="distinct" value="distinct()$END$" description="laravle distinct" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="addSelect" value="addSelect($END$)" description="laravle addSelect" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="selectRaw" value="selectRaw($END$)" description="laravle selectRaw" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereRaw" value="whereRaw($END$)" description="laravle whereRaw" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orWhereRaw" value="orWhereRaw($END$)" description="laravle orWhereRaw" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="havingRaw" value="havingRaw($END$)" description="laravle havingRaw" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orHavingRaw" value="orHavingRaw($END$)" description="laravle orHavingRaw" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orderByRaw" value="orderByRaw($END$)" description="laravle orderByRaw" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereBetween" value="whereBetween($NEXT$, $END$)" description="laravle whereBetween" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orWhereBetween" value="orWhereBetween($NEXT$, $END$)" description="laravle orWhereBetween" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereNotBetween" value="whereNotBetween($NEXT$, $END$)" description="laravle whereNotBetween" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orWhereNotBetween" value="orWhereNotBetween($NEXT$, $END$)" description="laravle orWhereNotBetween" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="increment" value="increment()$END$" description="laravle increment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="decrement" value="decrement()$END$" description="laravle decrement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="updateOrInsert" value="updateOrInsert($NEXT$, $END$)" description="laravle updateOrInsert" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="insertGetId" value="insertGetId($END$)" description="laravle insertGetId" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="insertOrIgnore" value="insertOrIgnore($END$)" description="laravle insertOrIgnore" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereJsonContains" value="whereJsonContains($NEXT$, $END$)" description="laravle whereJsonContains" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereJsonLength" value="whereJsonLength($NEXT$, $END$)" description="laravle whereJsonLength" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereDate" value="whereDate($NEXT$, $END$)" description="laravle whereDate" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereMonth" value="whereMonth($NEXT$, $END$)" description="laravle whereMonth" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereDay" value="whereDay($NEXT$, $END$)" description="laravle whereDay" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereYear" value="whereYear($NEXT$, $END$)" description="laravle whereYear" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereTime" value="whereTime($NEXT$, $END$)" description="laravle whereTime" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereNull" value="whereNull($END$)" description="laravle whereNull" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="findOrNew" value="findOrNew($NEXT$, $END$)" description="laravle findOrNew" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="firstOrNew" value="firstOrNew($NEXT$, $END$)" description="laravle firstOrNew" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="firstOrCreate" value="firstOrCreate($NEXT$, $END$)" description="laravle firstOrCreate" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="updateOrCreate" value="updateOrCreate($NEXT$, $END$)" description="laravle updateOrCreate" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="detach" value="detach($END$)" description="laravle detach" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="attach" value="attach($END$)" description="laravle attach" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="toggle" value="toggle($END$)" description="laravle toggle" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="syncWithoutDetaching" value="syncWithoutDetaching($END$)" description="laravle syncWithoutDetaching" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="updateExistingPivot" value="updateExistingPivot($NEXT$, $END$)" description="laravle updateExistingPivot" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />

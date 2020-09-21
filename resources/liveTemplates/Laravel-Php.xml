@@ -64,6 +64,12 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
+  <template name="hasOneThrough" value="public function $NAME$()&#10;{&#10;    return $this-&gt;hasOneThrough($END$);&#10;}" description="laravel hasOneThrough" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
   <template name="morphTo" value="public function $NAME$()&#10;{&#10;    return $this-&gt;morphTo();&#10;}" description="laravel morphTo" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -71,6 +77,24 @@
     </context>
   </template>
   <template name="morphMany" value="public function $NAME$()&#10;{&#10;    return $this-&gt;morphMany($END$);&#10;}" description="laravel morphMany" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="morphOne" value="public function $NAME$()&#10;{&#10;    return $this-&gt;morphOne($END$);&#10;}" description="laravel morphOne" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="morphToMany" value="public function $NAME$()&#10;{&#10;    return $this-&gt;morphToMany($END$);&#10;}" description="laravel morphToMany" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="morphedByMany" value="public function $NAME$()&#10;{&#10;    return $this-&gt;morphedByMany($END$);&#10;}" description="laravel morphedByMany" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
@@ -103,8 +127,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="fori" value="for ($INDEX$ = 0; $INDEX$ &lt; $NEXT$; $INDEX$++) {&#10;    $END$&#10;}" description="laravel fori" toReformat="false" toShortenFQNames="true">
-    <variable name="INDEX" expression="phpSuggestVariableName()" defaultValue="&quot;$i&quot;" alwaysStopAt="true" />
+  <template name="fori" value="for ($i = 0; $i &lt; $NEXT$; $i++) {&#10;    $END$&#10;}" description="laravel fori" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Statement" value="true" />
