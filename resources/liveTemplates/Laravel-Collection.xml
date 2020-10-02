@@ -4,7 +4,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="all" value="all()$END$" description="laravle all" toReformat="false" toShortenFQNames="true">
+  <template name="all" value="all()$END$" description="laravel all" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Class Member" value="false" />
@@ -14,7 +14,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="collapse" value="collapse()$END$" description="laravle collapse" toReformat="false" toShortenFQNames="true">
+  <template name="collapse" value="collapse()$END$" description="laravel collapse" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Class Member" value="false" />
@@ -24,7 +24,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="count" value="count()$END$" description="laravle count" toReformat="false" toShortenFQNames="true">
+  <template name="count" value="count()$END$" description="laravel count" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Class Member" value="false" />
@@ -45,7 +45,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="first" value="first($NEXT$)$END$" description="laravle first" toReformat="false" toShortenFQNames="true">
+  <template name="first" value="first($NEXT$)$END$" description="laravel first" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -56,7 +56,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="forget" value="forget($NEXT$)$END$" description="laravle forget" toReformat="false" toShortenFQNames="true">
+  <template name="forget" value="forget($NEXT$)$END$" description="laravel forget" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -67,7 +67,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="get" value="get($NEXT$)$END$" description="laravle get" toReformat="false" toShortenFQNames="true">
+  <template name="get" value="get($NEXT$)$END$" description="laravel get" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -78,7 +78,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="groupBy" value="groupBy($NEXT$)$END$" description="laravle groupBy" toReformat="false" toShortenFQNames="true">
+  <template name="groupBy" value="groupBy($NEXT$)$END$" description="laravel groupBy" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -89,7 +89,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="groupByRaw" value="groupByRaw($NEXT$)$END$" description="laravle groupByRaw" toReformat="false" toShortenFQNames="true">
+  <template name="groupByRaw" value="groupByRaw($NEXT$)$END$" description="laravel groupByRaw" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -100,29 +100,13 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="has" value="has($NEXT$)$END$" description="laravle has" toReformat="false" toShortenFQNames="true">
+  <template name="has" value="has($NEXT$)$END$" description="laravel has" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="implode" value="implode($NEXT$)$END$" description="laravle implode" toReformat="false" toShortenFQNames="true">
-    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-      <option name="PHP Class Member" value="false" />
-      <option name="PHP Comment" value="false" />
-      <option name="PHP Expression" value="false" />
-      <option name="PHP Statement" value="false" />
-      <option name="PHP String Literal" value="false" />
-    </context>
-  </template>
-  <template name="toArray" value="toArray()$END$" description="laravle toArray" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="take" value="take($NEXT$)$END$" description="laravle take" toReformat="false" toShortenFQNames="true">
+  <template name="implode" value="implode($NEXT$)$END$" description="laravel implode" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -133,63 +117,79 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="whereNotIn" value="whereNotIn($NEXT$, $ARR$)$END$" description="laravle whereNotIn" toReformat="false" toShortenFQNames="true">
+  <template name="toArray" value="toArray()$END$" description="laravel toArray" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="take" value="take($NEXT$)$END$" description="laravel take" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="whereNotIn" value="whereNotIn($NEXT$, $ARR$)$END$" description="laravel whereNotIn" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereIn" value="whereIn($NEXT$, $ARR$)$END$" description="laravle whereIn" toReformat="false" toShortenFQNames="true">
+  <template name="whereIn" value="whereIn($NEXT$, $ARR$)$END$" description="laravel whereIn" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="where" value="where($NEXT$)$END$" description="laravle where" toReformat="false" toShortenFQNames="true">
+  <template name="where" value="where($NEXT$)$END$" description="laravel where" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereq" value="where(function ($q) {&#10;    $q-&gt;where($NEXT$);&#10;})" description="laravle whereq" toReformat="false" toShortenFQNames="true">
+  <template name="whereq" value="where(function ($q) {&#10;    $q-&gt;where($NEXT$);&#10;})" description="laravel whereq" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="toJson" value="toJson()$END$" description="laravle toJson" toReformat="false" toShortenFQNames="true">
+  <template name="toJson" value="toJson()$END$" description="laravel toJson" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="orWhere" value="orWhere($NEXT$)$END$" description="laravle orWhere" toReformat="false" toShortenFQNames="true">
+  <template name="orWhere" value="orWhere($NEXT$)$END$" description="laravel orWhere" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="orWhereHas" value="orWhereHas('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle orWhereHas" toReformat="false" toShortenFQNames="true">
+  <template name="orWhereHas" value="orWhereHas('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravel orWhereHas" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereHas" value="whereHas('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle whereHas" toReformat="false" toShortenFQNames="true">
+  <template name="whereHas" value="whereHas('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravel whereHas" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="when" value="when($request-&gt;$START$, function ($q, $v) {&#10;    $q-&gt;where('$NEXT$', $END$);&#10;})" description="laravle when" toReformat="false" toShortenFQNames="true">
+  <template name="when" value="when($request-&gt;$START$, function ($q, $v) {&#10;    $q-&gt;where('$NEXT$', $END$);&#10;})" description="laravel when" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="fill" value="fill($NEXT$)$END$" description="laravle fill" toReformat="false" toShortenFQNames="true">
+  <template name="fill" value="fill($NEXT$)$END$" description="laravel fill" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -200,7 +200,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="isEmpty" value="isEmpty()$END$" description="laravle isEmpty" toReformat="false" toShortenFQNames="true">
+  <template name="isEmpty" value="isEmpty()$END$" description="laravel isEmpty" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Class Member" value="false" />
@@ -210,7 +210,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="isNotEmpty" value="isNotEmpty()$END$" description="laravle isNotEmpty" toReformat="false" toShortenFQNames="true">
+  <template name="isNotEmpty" value="isNotEmpty()$END$" description="laravel isNotEmpty" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Class Member" value="false" />
@@ -220,30 +220,19 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="paginate" value="paginate($NEXT$)$END$" description="laravle paginate" toReformat="false" toShortenFQNames="true">
+  <template name="paginate" value="paginate($NEXT$)$END$" description="laravel paginate" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="simplePaginate" value="simplePaginate($NEXT$)$END$" description="laravle simplePaginate" toReformat="false" toShortenFQNames="true">
+  <template name="simplePaginate" value="simplePaginate($NEXT$)$END$" description="laravel simplePaginate" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="orderBy" value="orderBy($NEXT$, $END$)" description="laravle orderBy" toReformat="false" toShortenFQNames="true">
-    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-      <option name="PHP Class Member" value="false" />
-      <option name="PHP Comment" value="false" />
-      <option name="PHP Expression" value="false" />
-      <option name="PHP Statement" value="false" />
-      <option name="PHP String Literal" value="false" />
-    </context>
-  </template>
-  <template name="getOriginal" value="getOriginal($NEXT$)$END$" description="laravle getOriginal" toReformat="false" toShortenFQNames="true">
+  <template name="orderBy" value="orderBy($NEXT$, $END$)" description="laravel orderBy" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -254,7 +243,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="getRelationValue" value="getRelationValue($NEXT$)$END$" description="laravle getRelationValue" toReformat="false" toShortenFQNames="true">
+  <template name="getOriginal" value="getOriginal($NEXT$)$END$" description="laravel getOriginal" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -265,7 +254,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="getAttributeFromArray" value="getAttributeFromArray($NEXT$)$END$" description="laravle getAttributeFromArray" toReformat="false" toShortenFQNames="true">
+  <template name="getRelationValue" value="getRelationValue($NEXT$)$END$" description="laravel getRelationValue" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -276,17 +265,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="contains" value="contains($END$)" description="laravle contains" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-      <option name="PHP Class Member" value="false" />
-      <option name="PHP Comment" value="false" />
-      <option name="PHP Expression" value="false" />
-      <option name="PHP Statement" value="false" />
-      <option name="PHP String Literal" value="false" />
-    </context>
-  </template>
-  <template name="tap" value="tap(function ($c) {&#10;    $NEXT$&#10;})" description="laravle tap" toReformat="false" toShortenFQNames="true">
+  <template name="getAttributeFromArray" value="getAttributeFromArray($NEXT$)$END$" description="laravel getAttributeFromArray" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -297,37 +276,17 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="whereDoesntHave" value="whereDoesntHave('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle whereDoesntHave" toReformat="false" toShortenFQNames="true">
-    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="contains" value="contains($END$)" description="laravel contains" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="doesntHave" value="doesntHave($NEXT$)$END$" description="laravle doesntHave" toReformat="false" toShortenFQNames="true">
-    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="orWhereDoesntHave" value="orWhereDoesntHave('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle orWhereDoesntHave" toReformat="false" toShortenFQNames="true">
-    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="orHas" value="orHas($NEXT$)$END$" description="laravle orHas" toReformat="false" toShortenFQNames="true">
-    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="orDoesntHave" value="orDoesntHave($NEXT$)$END$" description="laravle orDoesntHave" toReformat="false" toShortenFQNames="true">
-    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="hasMorph" value="hasMorph($NEXT$)$END$" description="laravle hasMorph" toReformat="false" toShortenFQNames="true">
+  <template name="tap" value="tap(function ($c) {&#10;    $NEXT$&#10;})" description="laravel tap" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -338,270 +297,311 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="orHasMorph" value="orHasMorph($NEXT$)$END$" description="laravle orHasMorph" toReformat="false" toShortenFQNames="true">
+  <template name="whereDoesntHave" value="whereDoesntHave('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravel whereDoesntHave" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="doesntHaveMorph" value="doesntHaveMorph($NEXT$)$END$" description="laravle doesntHaveMorph" toReformat="false" toShortenFQNames="true">
+  <template name="doesntHave" value="doesntHave($NEXT$)$END$" description="laravel doesntHave" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="orDoesntHaveMorph" value="orDoesntHaveMorph($NEXT$)$END$" description="laravle orDoesntHaveMorph" toReformat="false" toShortenFQNames="true">
+  <template name="orWhereDoesntHave" value="orWhereDoesntHave('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravel orWhereDoesntHave" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereHasMorph" value="whereHasMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle whereHasMorph" toReformat="false" toShortenFQNames="true">
+  <template name="orHas" value="orHas($NEXT$)$END$" description="laravel orHas" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="orWhereHasMorph" value="orWhereHasMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle orWhereHasMorph" toReformat="false" toShortenFQNames="true">
+  <template name="orDoesntHave" value="orDoesntHave($NEXT$)$END$" description="laravel orDoesntHave" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereDoesntHaveMorph" value="whereDoesntHaveMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle whereDoesntHaveMorph" toReformat="false" toShortenFQNames="true">
+  <template name="hasMorph" value="hasMorph($NEXT$)$END$" description="laravel hasMorph" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="orHasMorph" value="orHasMorph($NEXT$)$END$" description="laravel orHasMorph" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="orWhereDoesntHaveMorph" value="orWhereDoesntHaveMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle orWhereDoesntHaveMorph" toReformat="false" toShortenFQNames="true">
+  <template name="doesntHaveMorph" value="doesntHaveMorph($NEXT$)$END$" description="laravel doesntHaveMorph" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereExists" value="whereExists('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravle whereExists" toReformat="false" toShortenFQNames="true">
+  <template name="orDoesntHaveMorph" value="orDoesntHaveMorph($NEXT$)$END$" description="laravel orDoesntHaveMorph" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="chunk" value="chunk($NEXT$, function ($collect) {&#10;    foreach ($collect as $item) {&#10;        $END$})" description="laravle chunk" toReformat="false" toShortenFQNames="true">
+  <template name="whereHasMorph" value="whereHasMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravel whereHasMorph" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="chunkById" value="chunkById($NEXT$, function ($collect) {&#10;    foreach ($collect as $item) {&#10;        $END$})" description="laravle chunkById" toReformat="false" toShortenFQNames="true">
+  <template name="orWhereHasMorph" value="orWhereHasMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravel orWhereHasMorph" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereColumn" value="whereColumn($NEXT$, $END$)" description="laravle whereColumn" toReformat="false" toShortenFQNames="true">
+  <template name="whereDoesntHaveMorph" value="whereDoesntHaveMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravel whereDoesntHaveMorph" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="orWhereColumn" value="orWhereColumn($NEXT$, $END$)" description="laravle whereColumn" toReformat="false" toShortenFQNames="true">
+  <template name="orWhereDoesntHaveMorph" value="orWhereDoesntHaveMorph('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravel orWhereDoesntHaveMorph" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="exists" value="exists()$END$" description="laravle exists" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="doesntExist" value="doesntExist()$END$" description="laravle doesntExist" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="distinct" value="distinct()$END$" description="laravle distinct" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="addSelect" value="addSelect($END$)" description="laravle addSelect" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="selectRaw" value="selectRaw($END$)" description="laravle selectRaw" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="whereRaw" value="whereRaw($END$)" description="laravle whereRaw" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="orWhereRaw" value="orWhereRaw($END$)" description="laravle orWhereRaw" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="havingRaw" value="havingRaw($END$)" description="laravle havingRaw" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="orHavingRaw" value="orHavingRaw($END$)" description="laravle orHavingRaw" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="orderByRaw" value="orderByRaw($END$)" description="laravle orderByRaw" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="whereBetween" value="whereBetween($NEXT$, $END$)" description="laravle whereBetween" toReformat="false" toShortenFQNames="true">
+  <template name="whereExists" value="whereExists('$NEXT$', function ($q) {&#10;    $q-&gt;where($END$);&#10;})" description="laravel whereExists" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="orWhereBetween" value="orWhereBetween($NEXT$, $END$)" description="laravle orWhereBetween" toReformat="false" toShortenFQNames="true">
+  <template name="chunk" value="chunk($NEXT$, function ($collect) {&#10;    foreach ($collect as $item) {&#10;        $END$})" description="laravel chunk" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereNotBetween" value="whereNotBetween($NEXT$, $END$)" description="laravle whereNotBetween" toReformat="false" toShortenFQNames="true">
+  <template name="chunkById" value="chunkById($NEXT$, function ($collect) {&#10;    foreach ($collect as $item) {&#10;        $END$})" description="laravel chunkById" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="orWhereNotBetween" value="orWhereNotBetween($NEXT$, $END$)" description="laravle orWhereNotBetween" toReformat="false" toShortenFQNames="true">
+  <template name="whereColumn" value="whereColumn($NEXT$, $END$)" description="laravel whereColumn" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="increment" value="increment()$END$" description="laravle increment" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="decrement" value="decrement()$END$" description="laravle decrement" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="updateOrInsert" value="updateOrInsert($NEXT$, $END$)" description="laravle updateOrInsert" toReformat="false" toShortenFQNames="true">
+  <template name="orWhereColumn" value="orWhereColumn($NEXT$, $END$)" description="laravel whereColumn" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="insertGetId" value="insertGetId($END$)" description="laravle insertGetId" toReformat="false" toShortenFQNames="true">
+  <template name="exists" value="exists()$END$" description="laravel exists" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="insertOrIgnore" value="insertOrIgnore($END$)" description="laravle insertOrIgnore" toReformat="false" toShortenFQNames="true">
+  <template name="doesntExist" value="doesntExist()$END$" description="laravel doesntExist" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereJsonContains" value="whereJsonContains($NEXT$, $END$)" description="laravle whereJsonContains" toReformat="false" toShortenFQNames="true">
+  <template name="distinct" value="distinct()$END$" description="laravel distinct" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="addSelect" value="addSelect($END$)" description="laravel addSelect" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="selectRaw" value="selectRaw($END$)" description="laravel selectRaw" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereRaw" value="whereRaw($END$)" description="laravel whereRaw" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orWhereRaw" value="orWhereRaw($END$)" description="laravel orWhereRaw" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="havingRaw" value="havingRaw($END$)" description="laravel havingRaw" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orHavingRaw" value="orHavingRaw($END$)" description="laravel orHavingRaw" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orderByRaw" value="orderByRaw($END$)" description="laravel orderByRaw" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereBetween" value="whereBetween($NEXT$, $END$)" description="laravel whereBetween" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereJsonLength" value="whereJsonLength($NEXT$, $END$)" description="laravle whereJsonLength" toReformat="false" toShortenFQNames="true">
+  <template name="orWhereBetween" value="orWhereBetween($NEXT$, $END$)" description="laravel orWhereBetween" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereDate" value="whereDate($NEXT$, $END$)" description="laravle whereDate" toReformat="false" toShortenFQNames="true">
+  <template name="whereNotBetween" value="whereNotBetween($NEXT$, $END$)" description="laravel whereNotBetween" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereMonth" value="whereMonth($NEXT$, $END$)" description="laravle whereMonth" toReformat="false" toShortenFQNames="true">
+  <template name="orWhereNotBetween" value="orWhereNotBetween($NEXT$, $END$)" description="laravel orWhereNotBetween" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereDay" value="whereDay($NEXT$, $END$)" description="laravle whereDay" toReformat="false" toShortenFQNames="true">
+  <template name="increment" value="increment()$END$" description="laravel increment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="decrement" value="decrement()$END$" description="laravel decrement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="updateOrInsert" value="updateOrInsert($NEXT$, $END$)" description="laravel updateOrInsert" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereYear" value="whereYear($NEXT$, $END$)" description="laravle whereYear" toReformat="false" toShortenFQNames="true">
+  <template name="insertGetId" value="insertGetId($END$)" description="laravel insertGetId" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="insertOrIgnore" value="insertOrIgnore($END$)" description="laravel insertOrIgnore" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whereJsonContains" value="whereJsonContains($NEXT$, $END$)" description="laravel whereJsonContains" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereTime" value="whereTime($NEXT$, $END$)" description="laravle whereTime" toReformat="false" toShortenFQNames="true">
+  <template name="whereJsonLength" value="whereJsonLength($NEXT$, $END$)" description="laravel whereJsonLength" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="whereNull" value="whereNull($END$)" description="laravle whereNull" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="findOrNew" value="findOrNew($NEXT$, $END$)" description="laravle findOrNew" toReformat="false" toShortenFQNames="true">
+  <template name="whereDate" value="whereDate($NEXT$, $END$)" description="laravel whereDate" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="firstOrNew" value="firstOrNew($NEXT$, $END$)" description="laravle firstOrNew" toReformat="false" toShortenFQNames="true">
+  <template name="whereMonth" value="whereMonth($NEXT$, $END$)" description="laravel whereMonth" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="firstOrCreate" value="firstOrCreate($NEXT$, $END$)" description="laravle firstOrCreate" toReformat="false" toShortenFQNames="true">
+  <template name="whereDay" value="whereDay($NEXT$, $END$)" description="laravel whereDay" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="updateOrCreate" value="updateOrCreate($NEXT$, $END$)" description="laravle updateOrCreate" toReformat="false" toShortenFQNames="true">
+  <template name="whereYear" value="whereYear($NEXT$, $END$)" description="laravel whereYear" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="detach" value="detach($END$)" description="laravle detach" toReformat="false" toShortenFQNames="true">
+  <template name="whereTime" value="whereTime($NEXT$, $END$)" description="laravel whereTime" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="attach" value="attach($END$)" description="laravle attach" toReformat="false" toShortenFQNames="true">
+  <template name="whereNull" value="whereNull($END$)" description="laravel whereNull" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="toggle" value="toggle($END$)" description="laravle toggle" toReformat="false" toShortenFQNames="true">
+  <template name="findOrNew" value="findOrNew($NEXT$, $END$)" description="laravel findOrNew" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="syncWithoutDetaching" value="syncWithoutDetaching($END$)" description="laravle syncWithoutDetaching" toReformat="false" toShortenFQNames="true">
+  <template name="firstOrNew" value="firstOrNew($NEXT$, $END$)" description="laravel firstOrNew" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="updateExistingPivot" value="updateExistingPivot($NEXT$, $END$)" description="laravle updateExistingPivot" toReformat="false" toShortenFQNames="true">
+  <template name="firstOrCreate" value="firstOrCreate($NEXT$, $END$)" description="laravel firstOrCreate" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="updateOrCreate" value="updateOrCreate($NEXT$, $END$)" description="laravel updateOrCreate" toReformat="false" toShortenFQNames="true">
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="detach" value="detach($END$)" description="laravel detach" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="attach" value="attach($END$)" description="laravel attach" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="toggle" value="toggle($END$)" description="laravel toggle" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="syncWithoutDetaching" value="syncWithoutDetaching($END$)" description="laravel syncWithoutDetaching" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="updateExistingPivot" value="updateExistingPivot($NEXT$, $END$)" description="laravel updateExistingPivot" toReformat="false" toShortenFQNames="true">
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
